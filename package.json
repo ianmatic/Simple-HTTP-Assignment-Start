@@ -1,0 +1,30 @@
+{
+  "name": "simplehttp",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "description": "simple http homework json package",
+  "main": " ./js/index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmatic/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Ian Matic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianmatic/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/ianmatic/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
