@@ -5,7 +5,7 @@ const getHelloJSON = (request, response) => {
     message: text.hello,
   };
   const stringMessage = JSON.stringify(helloJSON);
-  response.writeHead(200, { 'Content-Type': 'applications/json' });
+  response.writeHead(200, { 'Content-Type': 'application/json' });
   response.write(stringMessage);
   response.end();
 };
